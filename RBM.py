@@ -76,7 +76,7 @@ numhid = 100 #number of hidden node is the number of features
 batch_size = 100
 rbm= RestrictedBoltzmannMachine(numvis, numhid)#remember the sequential class
 
-#Evakuation of RBM model using RMSE(Root Mean Squared Error)   
+#Evaluation of RBM model    
 # Training the RBM
 number_of_epoch = 20
 for epoch in range(1, number_of_epoch + 1):
